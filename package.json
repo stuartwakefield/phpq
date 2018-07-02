@@ -1,0 +1,33 @@
+{
+  "name": "phpq",
+  "version": "0.1.0",
+  "description": "Pairing heap priority queue",
+  "main": "lib",
+  "scripts": {
+    "benchmark": "node benchmark",
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartwakefield/phpq.git"
+  },
+  "keywords": [
+    "priority-queue",
+    "pairing-heap",
+    "node",
+    "javascript"
+  ],
+  "author": "Stuart Wakefield <me@stuartwakefield.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stuartwakefield/phpq/issues"
+  },
+  "homepage": "https://github.com/stuartwakefield/phpq#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "benchmark": "^2.1.4",
+    "bhpq": "^1.1.0"
+  }
+}
